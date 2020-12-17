@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Buscador</title>
+</head>
+<header>
+    <a href="concesionario.html"><img class="logo" src="img/logo.jpg"></a>
+    <span class="enlace1">Sobre nosotros</span>
+    <span class="enlace2">Galería</span>
+    <span class="enlace3">Contacto</span>
+</header>
+<body>
+    <h1 class="h1">Buscar Vehículo</h1>
+    <hr>
+    <br>
+    <form class="formulario">
+        <label for="marca">Marca:</label>
+        <input class="camposRellenar" type="text" id="inputMarca" name="marca"><br><br>
+        <label for="modelo">Modelo:</label>
+        <input class="camposRellenar" type="text" id="inputModelo" name="modelo"><br><br>
+        <label for="puertas">Puertas:</label>
+        <input class="camposRellenar" type="text" id="inputPuertas" name="puertas"><br><br>
+        <label for="combustible">Combustible:</label>
+        <select name="combustible" id="inputCombustible">
+            <option value="0" selected="selected">Seleccione combustible</option>
+            <option value="gasolina">Gasolina</option>
+            <option value="diesel">Diesel</option>
+            <option value="hibrido">Híbrido</option>
+            <option value="electrico">Eléctrico</option>
+        </select>
+        <br>
+        <br>
+        <label for="motorizacion">Motorización:</label>
+        <input class="camposRellenar" type="text" id="inputMotorizacion" name="motorizacion"><br>
+        <br>
+        <label for="matriculacion">Año matriculación:</label>
+        <input class="camposRellenar" type="date" id="inputMatriculacion" name="matriculacion"><br><br>
+
+        <label for="color">Color:</label>
+        <input class="camposRellenar" type="text" id="inputColor" name="color"><br><br>
+        <label for="precio">Precio final:</label>
+        <input class="camposRellenar" type="text" id="inputPrecio" name="precio"><br><br>
+
+        <br>
+        <span class="radios">Elevalunas:</span>
+        <input type="radio" id="eleva1" name="ele" value="1"> Si
+        <input type="radio" id="eleva0" name="ele" value="0"> No
+        <br><br>
+        <span class="radios">Cierre centralizado:</span>
+        <input type="radio" id="cierre1" name="cie" value="1"> Si
+        <input type="radio" id="cierre0" name="cie" value="0"> No
+        <br><br>
+        <span class="radios">Pintura metalizada:</span>
+
+        <input type="radio" id="pintura1" name="pin" value="1"> Si
+        <input type="radio" id="pintura0" name="pin" value="0"> No
+
+        <br><br>
+        <span class="radios">Cambio automático:</span>
+
+        <input type="radio" id="cambio1" name="cam" value="1"> Si
+        <input type="radio" id="cambio0" name="cam" value="0"> No
+
+        <br><br>
+        <span class="radios">KM 0: </span>
+
+
+        <input type="radio" id="km1" name="kil" value="1"> Si
+        <input type="radio" id="km0" name="kil" value="0"> No
+
+        <br><br>
+        <span class="radios">Ordenador:</span>
+        <input type="radio" id="ordenador1" name="ord" value="1"> Si
+        <input type="radio" id="ordenador0" name="ord" value="0"> No
+        <br><br><br>
+        <button class="botonsitocr7" type="submit" value="Buscar">Buscar</button>
+    </form>
+    <footer>Concesionario creado por los alumnos de 2º de DAW.</footer>
+</body>
+</html>
